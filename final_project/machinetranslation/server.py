@@ -17,6 +17,5 @@ def f_2_e(request.args.get(frenchtext)):
     engtext=translator.french_to_english(frenchtext)
     return engtext
     
-
 if __name__ == "__main__":
     app.run(debug=True)
